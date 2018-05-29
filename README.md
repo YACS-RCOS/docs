@@ -1,3 +1,11 @@
-# Headline
+# Welcome to Yacs!
 
-> An awesome project.
+## What's a Yacs?
+
+## Who is Yacs for?
+
+## Who Makes Yacs?
+
+## Cool! How Can I help?
+
+## I Want Yacs at My School!
