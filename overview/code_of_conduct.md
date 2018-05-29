@@ -43,7 +43,7 @@ Examples of unacceptable behaviors include:
 
 ### Reporting Incidents
 
-At any point, you may report instances of CoC violations to RCOS faculty at <coordinators@rcos.io>. You, as well as any other witnesses, have the right to remain anonymous to the rest of the RCOS community.
+At any point, you may report instances of CoC violations to Ada Young at <team@yacs.io>. You, as well as any other witnesses, have the right to remain anonymous to the rest of the RCOS community.
 
 ### Project Maintainer Responsibilities
 Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. In the case of contributors external to RPI and/or RCOS, temporary or permanent bans may occur. RPI-specific policies are outlined below.
