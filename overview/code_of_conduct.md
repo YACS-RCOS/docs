@@ -1,19 +1,14 @@
 ## Foreword
-Yacs and all of its related projects use the RCOS Community Code of Conduct. By
-participating in the development of Yacs, engaging in discussion about Yacs,
-using Yacs, promoting Yacs, or otherwise being involved in the Yacs community,
-you agree to abide by the RCOS Community Code of Conduct.
+Yacs and all of its related projects use the RCOS Community Code of Conduct.
+By participating in the development of Yacs, engaging in discussion about Yacs, using Yacs, promoting Yacs, or otherwise being involved in the Yacs community, you agree to abide by the RCOS Community Code of Conduct.
 
-In addition, any project that uses the Yacs API or otherwise integrates with,
-connects to, or relies on Yacs must maintain a community Code of Conduct that is
-identical to, or compatible with (at the discretion of the Yacs Maintainers) the
-RCOS Community Code of Conduct.
+In addition, any project that uses the Yacs API or otherwise integrates with, connects to, or relies on Yacs must maintain a community Code of Conduct that is identical to, or compatible with (at the discretion of the Yacs Maintainers) the RCOS Community Code of Conduct.
 
-The RCOS Community Code of Confuct is copied below. Please carefully read and
-understand it before engaging in the Yacs community.
+The RCOS Community Code of Confuct is copied below. Please carefully read and understand it before engaging in the Yacs community in any capacity.
 
 # RCOS Community Code of Conduct
-In the interest of fostering an open and welcoming environment, RCOS pledges to be an inclusive and harassment-free experience for  all, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, educational background, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation. 
+
+In the interest of fostering an open and welcoming environment, RCOS pledges to be an inclusive and harassment-free experience for  all, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, educational background, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 ## General
 The General Code of Conduct applies to all RCOS activity and activity affiliated with any RCOS project online and offline.
