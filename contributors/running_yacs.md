@@ -1,25 +1,20 @@
 # Running Yacs (For Development)
 
-This document will explain 
+## Welcome!
+
+Congrats on making it this far!
+Give yourself a pat on the back.
+You are ready to actually run Yacs on your computer; how exciting!
 
 ## Prerequisites
 
-This is your entry point as a YACS developer. To get started developing or deploying, follow these instructions.
+These instructions require that you have completed the previous steps in the [Setup Guide](contributors/setup_guide).
 
-If you have not used git or Github before, make sure your local git name and email are set, and you have your SSH key uploaded to Github.
-Follow these [instructions](https://help.github.com/articles/set-up-git/) from Github. Please use SSH instead of HTTPS.
+This is now your entry point as a YACS contributor. To get started developing, follow these instructions.
 
-Please install [Docker](https://www.docker.com/community-edition) and [docker-compose](https://docs.docker.com/compose/install/).
-It is recommended to use either Linux or macOS.
+## Building Yacs
 
-If you use Linux, it is recommended to follow the [post-installation](https://docs.docker.com/install/linux/linux-postinstall/)
-sections "Manage Docker as a non-root user" and "Configure Docker to start on boot".
-
-Running YACS on Windows may be possible, but it is not recommended and not supported.
-
-## Development
-
-1. Clone this repository
+1. Clone the yacs-orchestra repository.
   `git clone git@github.com:YACS-RCOS/yacs-orchestra.git`
 
 2. Enter the cloned directory
@@ -28,8 +23,14 @@ Running YACS on Windows may be possible, but it is not recommended and not suppo
 3. Run the one-time setup script
   `bin/yacs-prepare-development`
 
+## Running Yacs
+
 You can now use the following command to run YACS:
   `bin/yacs-start-development`
 
 To stop YACS, press ctrl+c and run the following command
   `bin/yacs-stop-development`
+
+At this point, you should be able to make changes to any of the Yacs repositories that have been cloned into the `develop` folder, and your changes should appear as soon as you refresh your browser!
+
+    TODO: Improve this page
