@@ -1,4 +1,4 @@
-## Foreword
+# Foreword
 Yacs and all of its related projects use the RCOS Community Code of Conduct.
 By participating in the development of Yacs, engaging in discussion about Yacs, using Yacs, promoting Yacs, or otherwise being involved in the Yacs community, you agree to abide by the RCOS Community Code of Conduct.
 
