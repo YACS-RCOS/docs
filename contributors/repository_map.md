@@ -50,26 +50,26 @@ Yacs Auth is a microservice authorization library.
 It contains our authorization logic and session management, which uses JSON Web Tokens (JWT) with Redis for session handling and validation.
 This library allows any service to authenticate a user and validate or invalidate their session, as long as that service is connected to the shared Redis instance.
 
-### [yacs-malg]
+### [yacs-malg](https://github.com/yacs-rcos/yacs-malg)
 
 Yacs Malg is the 'secret sauce' that connects Yacs to your university.
 It pulls data from JSON data sources, and intelligently and configurably combines (amalgamates) it into a master graph.
 The graph serialized and stored in Redis for internal persistance, and every entity is written to a Kafka topic as well for further processing and storage.
 Malg polls each data source at regular intervals, and continually writes changes to Redis and Kafka.
 
-### [yacs-notifications]
+### [yacs-notifications](https://github.com/yacs-rcos/yacs-notifications)
 
 Yacs Notifications serves the streaming API for changes to Yacs objects.
 It allows clients to receive notifications regarding courses and sections they are interested in.
 It is in early development, and is planned for release in Summer 2018.
 
-### [docs]
+### [docs](https://github.com/yacs-rcos/docs)
 
 Docs is the repository for this documentation!
 It uses Docsify, and awesome static site generator that generates beautiful documentation from everyday Markdown files.
 Because we have a bunch of repos, documentation goes in here so it is easier to find, with the exception of each repository's README.
 
-### [issue-triage]
+### [issue-triage](https://github.com/yacs-rcos/issue-triage)
 
 Issue Triage is where issues go when they are not isolated to a particular service, or when they span multiple services.
 If you are not sure where to open an issue, open it here!
