@@ -14,14 +14,17 @@ This is now your entry point as a YACS contributor. To get started developing, f
 
 ## Building Yacs
 
-1. Clone the yacs-orchestra repository.
-  `git clone git@github.com:YACS-RCOS/yacs-orchestra.git`
+1. Clone the yacs repository.
+  `git clone git@github.com:YACS-RCOS/yacs.git`
 
 2. Enter the cloned directory
   `cd yacs-orchestra`
 
 3. Run the one-time setup script
   `bin/yacs-prepare-development`
+
+4. Run the database setup/cleaning script
+	`bin/yacs-purge-development`
 
 ## Running Yacs
 
@@ -31,6 +34,6 @@ You can now use the following command to run YACS:
 To stop YACS, press ctrl+c and run the following command
   `bin/yacs-stop-development`
 
-At this point, you should be able to make changes to any of the Yacs repositories that have been cloned into the `develop` folder, and your changes should appear as soon as you refresh your browser!
+At this point, you should be able to make changes to any of the Yacs services, and your changes should appear as soon as you refresh your browser!
 
     TODO: Improve this page
