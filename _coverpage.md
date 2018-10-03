@@ -9,13 +9,10 @@
 
 <h1 class="logo">Yacs <small>beta</small></h1>
 
-> The course scheduler by students, for students
-> 
-> Created by RCOS at RPI
+> the free, open source course scheduler
 
-* Find the courses you care about
-* Create schedules with a click
-* Stay up to date with your curriculum
+* created by rcos at rpi
+<br><br>
 
 [GitHub](https://github.com/yacs-rcos)
 [RCOS](https://rcos.io)
