@@ -10,4 +10,4 @@
   * [Running Yacs](contributors/running_yacs)
   * [Architecture](contributors/architecture)
   * [Repository Map](contributors/repository_map)
-  * [API Docs](contributors/api_docs)
+* [API Docs](api_doc)

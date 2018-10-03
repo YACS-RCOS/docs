@@ -1,10 +1,10 @@
-FORMAT: 1A
-
 # Yacs API v6
+
+## Welcome
 
 Welcome to the Yacs API documentation!
 
-The Yacs API fully implements [JSON-API v1](http://jsonapi.org/), a specification for defining RESTful APIs in JSON.
+The Yacs API fully implements [JSON-API v1](http://jsonapi.org/), a specification for creating RESTful APIs in JSON.
 It's basically GraphQL on JSON.
 This API is built with [Graphiti](https://graphiti-api.github.io/graphiti/), a very powerful tool for creating JSON-API compliant APIs in ruby.
 We suggest you check out the JSON-API specification if you are not familiar.
@@ -18,72 +18,81 @@ Yacs has HATEOAS in its veins.
 
 ## Querying
 
-All resources support the following operations. 
+All resources support the following query parameters.
+These parameters can be combined in any way, making it extremely easy to perform complex queries.
 
-- **[Sort](http://jsonapi.org/format/#fetching-sorting)**
-    - By name, ascending:
-        - URL: `/api/v6/listings?sort=longname
-        - SQL: `SELECT * FROM listings ORDER BY longname ASC`
-    - By name, descending:
-        - URL: `/api/v6/listings?sort=-longname
-        - SQL: `SELECT * FROM listings ORDER BY longname DESC`
-- **[Paginate](http://jsonapi.org/format/#fetching-pagination)**
-    - 2 Per page:
-        - URL: `/api/v6/listings?page[size]=2
-        - SQL: `SELECT * FROM listings LIMIT 2`
-    - 2 Per page, second page:
-        - URL: `/api/v6/listings?page[size]=2&page[number]=2
-        - SQL: `SELECT * FROM listings LIMIT 2 OFFSET 2`
-- **[Partial Resources](http://jsonapi.org/format/#fetching-sparse-fieldsets)**
-    - Only render name, not description or anything else:
-        - URL: `/api/v6/listings?fields[listings]=longname
-        - SQL: `SELECT * from listings (optimizing this query is on the roadmap)`
-- **[Filter](http://jsonapi.org/format/#fetching-filtering)**
-    - Simple:
-        - URL: `/api/v6/listings?filter[longname]=data structures
-        - SQL: `SELECT * FROM listings WHERE title = "My title!"`
-    - Case Sensitive:
-        - URL: `/api/v6/listings?filter[longname][eql]=Data Structures
-        - SQL: `SELECT * FROM listings WHERE lower(title) = "my title!"`
-    - Prefix:
-        - URL: `/api/v6/listings?filter[longname][prefix]=data
-        - SQL: `SELECT * FROM listings WHERE lower(title) LIKE 'my%'`
-    - Suffix:
-        - URL: `/api/v6/listings?filter[longname][suffix]=structures
-        - SQL: `SELECT * FROM listings WHERE lower(title) LIKE '%title!'`
-    - Contains:
-        - URL: `/api/v6/listings?filter[longname][match]=struct
-        - SQL: `SELECT * FROM listings WHERE lower(title) LIKE '%struct%'`
-    - Greater Than:
-        - URL: `/api/v6/listings?filter[max_credits][gt]=1
-        - SQL: `SELECT * FROM listings WHERE max_credits > 1`
-    - Greater Than or Equal To:
-        - URL: `/api/v6/listings?filter[max_credits][gte]=3
-        - SQL: `SELECT * FROM listings WHERE max_credits >= 3`
-    - Less Than:
-        - URL: `/api/v6/listings?filter[max_credits][lt]=4
-        - SQL: `SELECT * FROM listings WHERE max_credits < 4`
-    - Less Than or Equal To:
-        - URL: `/api/v6/listings?filter[max_credits][lte]=2
-        - SQL: `SELECT * FROM listings WHERE max_credits <= 2`
-- **[Statistics](https://graphiti-api.github.io/graphiti/quickstart)**
-    - Count:
-        - URL: /api/v1/posts?sections[total]=count
-        - SQL: SELECT count(*) from sections
-    - More coming soon
-- **[Relationships](http://jsonapi.org/format/#fetching-relationships)**
-    - Include related resource (has many):
-        - URL: `/api/v6/listings?include=sections`
-        - SQL: `SELECT * FROM sections WHERE listing_id = 123`
-    - Include related resource (belongs to):
-        - URL: `/api/v6/courses?include=subjects`
-        - SQL: `SELECT * FROM sections WHERE listing_id = 123`
-    - Deep queries:
-        - URL: `/api/v6/sections?include=listings&filter[listing.longname]=Data Structures`
+#### **[Sort](http://jsonapi.org/format/#fetching-sorting)**
+
+- By name, ascending:
+    - `GET /api/v6/listings?sort=longname`
+- By name, descending:
+    - `GET /api/v6/listings?sort=-longname`
+
+#### **[Paginate](http://jsonapi.org/format/#fetching-pagination)**
+
+- 2 Per page:
+    - `GET /api/v6/listings?page[size]=2`
+- 2 Per page, second page:
+    - `GET /api/v6/listings?page[size]=2&page[number]=2`
+
+#### **[Partial Resources](http://jsonapi.org/format/#fetching-sparse-fieldsets)**
+
+- Only render name, not description or anything else:
+    - `GET /api/v6/listings?fields[listings]=longname`
+
+#### **[Filter](http://jsonapi.org/format/#fetching-filtering)**
+
+- Simple:
+    - `GET /api/v6/listings?filter[longname]=data structures`
+- Case Sensitive:
+    - `GET /api/v6/listings?filter[longname][eql]=Data Structures`
+- Prefix:
+    - `GET /api/v6/listings?filter[longname][prefix]=data`
+- Suffix:
+    - `GET /api/v6/listings?filter[longname][suffix]=structures`
+- Contains:
+    - `GET /api/v6/listings?filter[longname][match]=struct`
+- Greater Than:
+    - `GET /api/v6/listings?filter[max_credits][gt]=1`
+- Greater Than or Equal To:
+    - `GET /api/v6/listings?filter[max_credits][gte]=3`
+- Less Than:
+    - `GET /api/v6/listings?filter[max_credits][lt]=4`
+- Less Than or Equal To:
+    - `GET /api/v6/listings?filter[max_credits][lte]=2`
+
+#### **[Statistics](https://graphiti-api.github.io/graphiti/quickstart)**
+
+- Count:
+    - `GET /api/v6/posts?sections[total]=count`
+- More coming soon
+
+#### **[Relationships](http://jsonapi.org/format/#fetching-relationships)**
+
+- Include related resource (has many):
+    - `GET /api/v6/listings?include=sections`
+- Include related resource (belongs to):
+    - `GET /api/v6/courses?include=subjects`
+- Deep queries:
+    - `GET /api/v6/sections?include=listings&filter[listing.longname]=Data Structures`
 
 ### Deep Queries
 
 TODO: this section
+
+## Resources
+
+### Schools
+
+### Subjects
+
+### Courses
+
+### Terms
+
+### Listings
+
+### Sections
 
 ## Group School
 
@@ -316,10 +325,10 @@ or set account properties or destroy their accounts.
     + Attributes (object)
         + data (object, required)
             + type (string, required)
-            + attributes (object, required) - may contain the properties below as well as any others that should be included
+            + attributes (object, required) may contain the     &nbsbproperties below as well as any others that - - should be in
                 + username (string)
                 + password (string)
-            + id (string) - the server may accept a client-generated id along with the request
+                + id (string) the server may accept a - - client-generated  &nbsbid along with the r
 
     + Body
 
@@ -823,8 +832,8 @@ creating a request, like an error during password reset delivery. It might or
 might not require authentication, depending on the type of request.
 
 + Parameters
-    + id: 1234 (required, string) - request id
-
+    - + id: 1234 (required, string) request id
+    - 
 ### Fetch [GET]
 
 + Request
@@ -1080,8 +1089,8 @@ Admins can fetch and manage all user accounts and their profile properties.
 
 + Parameters
 
-    + id: abc4567 (required, string) - id of account
-
+    - + id: abc4567 (required, string) id of account
+    - 
 ### Fetch [GET]
 
 + Request
@@ -1228,8 +1237,8 @@ All custom user data is stored in the profile.
 
 + Parameters
 
-    + id: abc4567 (required, string) - id of account
-
+    - + id: abc4567 (required, string) id of account
+    - 
 ### Fetch [GET]
 
 + Request
@@ -1333,8 +1342,8 @@ Admins can manage sessions for all user accounts
 
 + Parameters
 
-    + id: abc4567 (required, string) - id of account
-
+    - + id: abc4567 (required, string) id of account
+    - 
 ### Create [POST]
 
 + Request
