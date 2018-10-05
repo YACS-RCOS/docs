@@ -32,7 +32,7 @@ Issues should be small, specific, and well defined.
 
 ### Projects
 
-We use [Github Projects](https://help.github.com/articles/about-project-boards/) to keep track of our issues across our multiple repositories (more on this [later](contributors/repository_map.md)). Our main project board is the [Core Project](https://github.com/orgs/YACS-RCOS/projects/3).
+We use [Github Projects](https://help.github.com/articles/about-project-boards/) to keep track of our issues across our multiple services and initiatives (more on this [later](contributors/service_map.md)). Our main project board is the [Core Project](https://github.com/orgs/YACS-RCOS/projects/3).
 Issues on this project are organized into five categories:
 
 1) **Needs Review**. Newly created issues go here.

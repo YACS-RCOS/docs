@@ -9,5 +9,5 @@
   * [Installing Docker](contributors/installing_docker)
   * [Running Yacs](contributors/running_yacs)
   * [Architecture](contributors/architecture)
-  * [Repository Map](contributors/repository_map)
+  * [Service Map](contributors/service_map)
 * [API Docs](api_doc)
