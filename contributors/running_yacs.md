@@ -10,7 +10,7 @@ You are ready to actually run Yacs on your computer; how exciting!
 
 These instructions require that you have completed the previous steps in the [Setup Guide](contributors/setup_guide).
 
-This is now your entry point as a YACS contributor. To get started developing, follow these instructions.
+This is now your entry point as a Yacs contributor. To get started developing, follow these instructions.
 
 ## Building Yacs
 
@@ -28,10 +28,10 @@ This is now your entry point as a YACS contributor. To get started developing, f
 
 ## Running Yacs
 
-You can now use the following command to run YACS:
+You can now use the following command to run Yacs:
   `bin/yacs-start-development`
 
-To stop YACS, press ctrl+c and run the following command
+To stop Yacs, press ctrl+c and run the following command
   `bin/yacs-stop-development`
 
 At this point, you should be able to make changes to any of the Yacs services, and your changes should appear as soon as you refresh your browser!
