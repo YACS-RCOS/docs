@@ -46,6 +46,7 @@ Just open a terminal, enter the following command, and then follow the prompt to
     curl -fsSL get.docker.com | sudo sh
 
 Once the install is complete, enter the following command to enable docker for your user.
+You will have to log out and log back in after entering this comment.
 
     sudo usermod -aG docker $USER
 
