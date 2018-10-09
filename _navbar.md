@@ -1,4 +1,4 @@
-* [Intro](/)
+* [Intro](/#welcome-to-yacs)
 * [Contribute](/contributors/getting_started)
 * [API](api_doc)
 * [Github](https://github.com/yacs-rcos)
