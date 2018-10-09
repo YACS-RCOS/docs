@@ -8,7 +8,7 @@ That's awesome, we are happy to have you!
 Yacs is built to be a contributor-inclusive project, and welcomes contributors of all experience levels.
 So whether you're already a senior engineer, an open source evangelist, or have never touched a line of code, we welcome and look forward to your contributions!
 
-There is always plenty of work to be done, and if you ever have any questions or don't know where to start, don't hesitate to drop us a line at [team@yacs.io](mailto:team@yacs.io), or contact the maintainer personally at [me@adadoes.io](mailto:me@adadoes.io).
+There is always plenty of work to be done, and if you ever have any questions or don't know where to start, don't hesitate to drop us a line at [yacsrpi@gmail.com](mailto:yacsrpi@gmail.com), or contact the maintainer personally at [me@adadoes.io](mailto:me@adadoes.io).
 
 ## Where Do I Start?
 
@@ -73,7 +73,7 @@ If you are feeling more adventurous, you are free to explore any of the issues o
 ### Help! I Can't Find an Issue!
 
 Thats OK! Don't sweat it! There might not be the right issue for you on the board right now, or it might just be hiding in plain sight.
-Whatever the case, please feel free to email us at [team@yacs.io](mailto:team@yacs.io).
+Whatever the case, please feel free to email us at [yacsrpi@gmail.com](mailto:yacsrpi@gmail.com).
 
 We usually have items in our roadmap that do not have issues yet, too. If you reach out, we can help you get set up with something based on the skills you have or the skills you want to learn.
 We are always here to help you get started!
