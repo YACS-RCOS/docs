@@ -8,6 +8,8 @@
   * [Setup Guide](contributors/setup_guide)
   * [Installing Docker](contributors/installing_docker)
   * [Running Yacs](contributors/running_yacs)
-  * [Architecture](contributors/architecture)
-  * [Service Map](contributors/service_map)
+* Architecture
+  * [Overview](architecture/overview)
+  * [Service Map](architecture/service_map)
+  * [Adapters](architecture/adapters)
 * [API Docs](api_doc)
