@@ -65,7 +65,7 @@ Once you have installed Linux, follow the [Linux Docker install steps](#linux)
 
 ##### Notes for Windows Users:
 - If you are not comfortable installing an operating system, we recommend using a Virtual Machine over Dual Booting
-- If you wish to use a Virtual Machine, you must have at least 8GB of RAM and either Windows 8.1 Professional Edition (**Not Home Edition**) or Windows 10
+- If you wish to use a Virtual Machine, you must have at least 8GB of RAM and either Windows 8.1 Professional Edition (**Not Home Edition**) or, preferably Windows 10
 - Performance while using a Virtual Machine under Windows may suffer
 
 ## Congratulations!

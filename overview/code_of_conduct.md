@@ -1,22 +1,17 @@
-# Foreword
-Yacs and all of its related projects use the RCOS Community Code of Conduct.
-By participating in the development of Yacs, engaging in discussion about Yacs, using Yacs, promoting Yacs, or otherwise being involved in the Yacs community, you agree to abide by the RCOS Community Code of Conduct.
+# Yacs Code of Conduct
 
-In addition, any project that uses the Yacs API or otherwise integrates with, connects to, or relies on Yacs must maintain a community Code of Conduct that is identical to, or compatible with (at the discretion of the Yacs Maintainers) the RCOS Community Code of Conduct.
+In the interest of fostering an open and welcoming environment, Yacs pledges to be an inclusive and harassment-free experience for  all, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, educational background, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
-The RCOS Community Code of Confuct is copied below. Please carefully read and understand it before engaging in the Yacs community in any capacity.
-
-# RCOS Community Code of Conduct
-In the interest of fostering an open and welcoming environment, RCOS pledges to be an inclusive and harassment-free experience for  all, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, educational background, socio-economic status, nationality, personal appearance, race, religion, or sexual identity and orientation.
-
-The RCOS Community Code of Conduct applies to all RCOS activity and activity affiliated with any RCOS project online and offline.
+This Code of Conduct applies to all Yacs-affiliated activity online and offline.
 
 ## Guidelines
+
 ### Be respectful and inclusive
+
 * **Use inclusive language.**  This includes:
-  * Using [gender-neutral or non-gendered language](http://geekfeminism.wikia.com/wiki/Nonsexist_language) where possible
-  * When referring to community members, using their preferred pronouns
-  * In general, avoiding any language that could be considered offensive towards marginalized groups
+  * using [gender-neutral or non-gendered language](http://geekfeminism.wikia.com/wiki/Nonsexist_language) where possible
+  * when referring to community members, using their preferred pronouns
+  * in general, avoiding any language that could be considered offensive towards marginalized groups
 * **Respect people's differences.** Examples include:
   * Being welcoming towards new members
   * Being open to opposing viewpoints
@@ -24,10 +19,10 @@ The RCOS Community Code of Conduct applies to all RCOS activity and activity aff
   * Making sure your project and any physical spaces your project team may meet are accessible to all members, including members with disabilities
 
 ### Give and be welcoming to constructive feedback
+
 * **Be constructive and respectful** when giving others feedback. This includes:
   * Only giving feedback when solicited (e.g. mock presentation, questions section of presentation, request for code review, pull request, etc.)
   * Keeping all feedback constructive, objective and impersonal
-
 
 ## Unacceptable Behaviors
 
@@ -35,22 +30,20 @@ Examples of unacceptable behaviors include:
 
 * The use of sexualized language or imagery and unwelcome sexual attention or advances
 * Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment as defined [here](https://handbook.rcos.io/resources/harassment_guidelines)
+* Public or private harassment as defined [here](https://rcos.github.io/rcos-handbook/#/community/harassment_guidelines)
 * Publishing others’ private information, such as a physical or electronic address, without explicit permission
 * Other conduct which could reasonably be considered inappropriate in a professional setting
 
 ## Reporting Incidents
 
-At any point, you may report instances of CoC violations to our [coordinators](https://rcos.github.io/rcos-handbook/#/coordinating/README) and [faculty advisors](https://handbook.rcos.io/#/coordinating/faculty) at <coordinators@rcos.io>. You, as well as any other witnesses, have the right to remain anonymous to the rest of the RCOS community.
+This project is affiliated with [Rensselaer Center for Open Source](http://rcos.io) (RCOS). At any point, you may report instances of CoC violations to the RCOS [coordinators](https://rcos.github.io/rcos-handbook/#/coordinating/README) and [faculty advisors](https://handbook.rcos.io/#/coordinating/faculty) at <coordinators@rcos.io>. You, as well as any other witnesses, have the right to remain anonymous to the rest of the RCOS community.
 
-If you are uncomfortable reporting to the coordinators for any reason, you may reach out to a faculty advisor directly via our [Slack](https://rcos.slack.com/).
+If you are uncomfortable reporting to the coordinators for any reason, you may reach out to a faculty advisor directly via the RCOS [Slack](https://rcos.slack.com/).
 
 ## Project Maintainer Responsibilities
-Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. In the case of contributors external to RPI and/or RCOS, temporary or permanent bans may occur. RPI-specific policies are outlined below.
 
-## RPI-Specific Policies
-RPI-specific policies, including consequences for violating the RCOS Code of Conduct in the context of RCOS at RPI, can be found under our [Bylaws](https://rcos.github.io/rcos-handbook/#/resources/bylaws). Please review these if you are a student, mentor, or coordinator at RPI, as you will also be expected to follow these bylaws.
+Project maintainers have the right and responsibility to remove, edit, or reject comments, commits, code, wiki edits, issues, and other contributions that are not aligned to this Code of Conduct. In the case of contributors external to RPI and/or RCOS, temporary or permanent bans may occur. RPI-specific policies are outlined in the RCOS [Bylaws](https://rcos.github.io/rcos-handbook/#/community/bylaws).
 
 ## License and Attribution
 
-This Code of Conduct has been adapted with modifications from the [Contributor Covenant Code of Conduct](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html) and the [Mozilla Community Participation Guidelines](https://www.mozilla.org/en-US/about/governance/policies/participation/). This Code of Conduct, like everything RCOS does, is open source and can be found in our [rcos-handbook](https://github.com/rcos/rcos-handbook) repository.
+This Code of Conduct has been adapted from the [RCOS Community Code of Conduct](https://rcos.github.io/rcos-handbook/#/community/CODE_OF_CONDUCT).
