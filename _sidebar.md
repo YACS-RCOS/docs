@@ -1,8 +1,7 @@
 * Overview
   * [💖 Welcome to Yacs](README)
+  * [About](overview/about)
   * [Code Of Conduct](overview/code_of_conduct)
-  * [Sponsors](overview/sponsors)
-  * [Contact](overview/contact)
 * Contributing
   * [Getting Started](contributors/getting_started)
   * [Setup Guide](contributors/setup_guide)
@@ -12,4 +11,8 @@
   * [Overview](architecture/overview)
   * [Service Map](architecture/service_map)
   * [Adapters](architecture/adapters)
+* User Guides
+  * [Students](user_guides/students)
+  * [Faculty](user_guides/faculty)
+  * [Administrators](user_guides/administrators)
 * [API Docs](api_doc)

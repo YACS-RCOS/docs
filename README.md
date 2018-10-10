@@ -1,5 +1,5 @@
 # Welcome to Yacs!
-It's so nice to see you!
+It's so good to see you!
 
 ### About
 This site is the home of (nearly) all Yacs documetation.
@@ -7,6 +7,7 @@ Like all Yacs projects, this documentation is free and open source, and lives [h
 
 ### How to Read These Docs
 The Yacs documentation is divided into several sections.
+Each section and its purpose is described here.
 
 #### Overview
 Everyone should start here.
@@ -15,7 +16,7 @@ Having, reading, understanding, and following a Code of Conduct is extremely imp
 Not only for the health and success of the project, but its contributors as well.
 
 #### Contributors
-Look here if you want to contribute to Yacs, or just play around with the source.
+Look here if you want to contribute to Yacs, run the software on your machine, or just play around with the source.
 Here you will find installation instructions, project management information, and tips on how and where to get started.
 
 #### Architecture
