@@ -10,10 +10,11 @@ The Yacs documentation is divided into several sections.
 Each section and its purpose is described here.
 
 #### Overview
-Everyone should start here.
-This section namely contains the [Code of Conduct](overview/code_of_conduct).
-Having, reading, understanding, and following a Code of Conduct is extremely important.
-Not only for the health and success of the project, but its contributors as well.
+Start Here!
+This section contains the about page, which explains what Yacs is, why it exists, where we are, and where we plan to go.
+This section also contains the [Code of Conduct](overview/code_of_conduct).
+By participating in the Yacs community, you are agreeing to follow the Code of Conduct.
+Understanding and following the Code of Conduct is extremely important for the health and success of the project, its contributors, and the Yacs community.
 
 #### Contributors
 Look here if you want to contribute to Yacs, run the software on your machine, or just play around with the source.
@@ -22,6 +23,10 @@ Here you will find installation instructions, project management information, an
 #### Architecture
 Here you will find the nitty-gritty details about how Yacs works.
 This is a useful resource if you are looking to tackle a larger issue, or want to work towards bringing Yacs to your university.
+
+#### User Guides
+This section contains user guides specific to each of the roles that use yacs.
+This section is currenrly under construction.
 
 #### API Docs
 Yacs has a public API! This API can be used to build all sorts of interesting, useful, or silly applications using the power of open data.
