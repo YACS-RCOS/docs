@@ -44,7 +44,7 @@ Malg polls each data source at regular intervals, and continually writes changes
 
 Yacs uses services called adapters to pull data from a university's systems, and transform that data into a form Yacs can ingest.
 Each data source has a corresponding adapter, which, when combined, provide a complete picture of a university's academic data.
-It is very easy to create new adapters.
+It is very easy to create new adapters - more information explaining them can be found on the [adapters documentation](https://yacs.io/#/architecture/adapters).
 They can be written in any language, and must simply respond to a set of http endpoints.
 
 ### [users](https://github.com/yacs-rcos/yacs/blob/master/users)
