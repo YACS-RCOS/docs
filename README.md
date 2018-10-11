@@ -1,5 +1,8 @@
 # Welcome to Yacs!
 It's so good to see you!
+<!-- The documentation can be found at this site:
+https://yacs.io/#/README
+ -->
 
 ### About
 This site is the home of (nearly) all Yacs documetation.
