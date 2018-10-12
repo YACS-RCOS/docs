@@ -1,3 +1,5 @@
+<!--
+
 # Service Map
 
 ## Welcome!
@@ -15,7 +17,7 @@ Here's a diagram illustrating the basic concept of Yacs and adapters:
 DIAGRAM GOES HERE  
 ========  
 <!-- TODO: Make diagram -->
-
+<!--
 When Yacs needs information that isn't stored in its database, it sends an HTTP request to the adapter that is responsible for that information. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples.
 
 ## Data Source
@@ -79,3 +81,4 @@ In the `yaml-rpi` adapter, this is done through
 [yacs-adapters]: https://github.com/YACS-RCOS/yacs/tree/master/adapters
 [yaml-rpi-adapter]: https://github.com/YACS-RCOS/yacs/tree/master/adapters/yaml-rpi
 [json-api]: http://jsonapi.org/format/
+-->
