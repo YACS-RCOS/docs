@@ -9,6 +9,11 @@ This is a good place to start if you don't know where something lives, or want t
 
 ## Services
 
+![](../_media/service_diagram.svg)
+
+The above diagram shows how each of the services connect.
+For more in-depth information on how Yacs operates as a whole, see [overview](architecture/overview)
+
 ### [core](https://github.com/yacs-rcos/yacs/blob/master/core)
 
 Yacs is currently the largest service.
