@@ -88,8 +88,8 @@ These are both [`jsonb` columns](https://blog.codeship.com/unleash-the-power-of-
 
 This works similarly to the malg priorities system.
 Whenever a record's `auto_atttributes` are updated, a check is performed to see if:
-  1) the given attribute(s) are valid and exists in the record's schema and
-  2) the given attribute(s) are also present in `override_attributes`
+  1) the given values(s) are valid and exists in the record's schema and
+  2) the given values(s) are also present in `override_attributes`
 If the new/changed value in `auto_attributes` is valid and has no corresponding value in `override_attributes`, then the record is updated.
 If the value is not valid or has a corresponding value in `override_attributes`, no changes are made to the record.
 On the other hand, if a value is updated in `override_attributes`, the record is always updated, as long as the changes are valid.
