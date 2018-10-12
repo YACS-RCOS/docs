@@ -1,8 +1,5 @@
 # Welcome to Yacs!
 It's so good to see you!
-<!-- The documentation can be found at this site:
-https://yacs.io/#/README
- -->
 
 ### About
 This site is the home of (nearly) all Yacs documetation.
@@ -19,7 +16,7 @@ This section also contains the [Code of Conduct](overview/code_of_conduct).
 By participating in the Yacs community, you are agreeing to follow the Code of Conduct.
 Understanding and following the Code of Conduct is extremely important for the health and success of the project, its contributors, and the Yacs community.
 
-#### Contributors
+#### Contributing
 Look here if you want to contribute to Yacs, run the software on your machine, or just play around with the source.
 Here you will find installation instructions, project management information, and tips on how and where to get started.
 
