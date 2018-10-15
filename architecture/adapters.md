@@ -1,4 +1,4 @@
-<!--
+<!-- - ->
 
 # Service Map
 
@@ -12,13 +12,31 @@ They can be written in any language, and must simply respond to a set of HTTP en
 ## Basic Concept
 Here's a diagram illustrating the basic concept of Yacs and adapters:
 
-<!-- ![alt-text](../_media/adaptersfig1.png) -->
+<!-- ![alt-text](../_media/adaptersfig1.png) - ->
 ========  
 DIAGRAM GOES HERE  
 ========  
-<!-- TODO: Make diagram -->
-<!--
-When Yacs needs information that isn't stored in its database, it sends an HTTP request to the adapter that is responsible for that information. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples.
+<!-- TODO: Make diagram - ->
+<!-- - ->
+When Yacs needs information that isn't stored in its database, it sends an HTTP request to the adapter that is responsible for that information. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples. The document `app.rb` will also be edited for clarity to this:
+
+``` ruby
+require 'sinatra'
+require 'sinatra/json'
+require 'oj'
+require 'yaml'
+
+set :bind, '0.0.0.0'
+set :port, 4600
+
+ENV['YAML_SOURCE'] ||= 'schools-and-subjects.yml'
+
+get "/:term_shortname" do
+	file = open(ENV['YAML_SOURCE'])
+	yaml_content = YAML.load(file)
+	json yaml_content
+end
+```
 
 ## Data Source
 The first thing your adapter needs is a place to get data from. In the `yaml-rpi` adapter, that place is a file called `schools-and-subjects.yml`.
@@ -41,9 +59,11 @@ schools:
 
 ```
 
-Now that we have a place to get information from, we need to load it into the adapter. We do so with this line:
+Now that we have a place to get information from, we need to load it into the adapter. We do so with this line in `app.rb`:
 
-```ruby
+``` ruby
+
+require 'yaml'
 
 ENV['YAML_SOURCE'] ||= 'schools-and-subjects.yml'
 
@@ -70,15 +90,39 @@ The JSON API is based off of JavaScript Object Notation:
 
 Notice that objects are surrounded by `{curly brackets}`, and both attributes and values are surrounded by `"double quotes"`. Each attribute-value pair is specified by a single line, with a colon separating attributes and values, and attribute-value pairs are separated by a comma. Note that spacing is irrelevant to the formatting of the document except in strings -- anything between double quotes must be on a single line.
 
-In the `yaml-rpi` adapter, this is done through
+In the `yaml-rpi` adapter, this is done through these lines in `app.rb`:
+
+```ruby
+
+require 'sinatra'
+require 'sinatra/json' # Package that makes it easy to write information to JSON files
+require 'oj'
+
+json YAML.load(open(ENV['YAML_SOURCE']))
+
+```
+
+
 
 
 ## HTTP Protocol
 
+```ruby
+
+require 'sinatra'
+
+set :bind, '0.0.0.0'
+set :port, 4600
+
+get "/:term_shortname" do
+  # json YAML.load(open(ENV['YAML_SOURCE']))
+end
+
+```
 
 ## Implementation Agnostic
 
 [yacs-adapters]: https://github.com/YACS-RCOS/yacs/tree/master/adapters
 [yaml-rpi-adapter]: https://github.com/YACS-RCOS/yacs/tree/master/adapters/yaml-rpi
 [json-api]: http://jsonapi.org/format/
--->
+<!-- -->
