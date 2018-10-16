@@ -12,7 +12,7 @@ There is always plenty of work to be done, and if you ever have any questions or
 
 ## Where Do I Start?
 
-First, read the [Code of Conduct](overview/code_of_conduct.md) if you haven't already. 
+First, read the [Code of Conduct](overview/code_of_conduct.md) if you haven't already.
 
 The next step is this document here.
 You may be eager to get started working, and that's super!
@@ -26,13 +26,13 @@ This document will explain how we do things, our development and project managem
 ### Issues
 
 First thing's first: issues!
-We use [Github Issues](https://guides.github.com/features/issues/) to keep track of what we need to do.
+We use [Github Issues][github-issues] to keep track of what we need to do.
 Every issue describes a single task, problem, or request.
 Issues should be small, specific, and well defined.
 
 ### Projects
 
-We use [Github Projects](https://help.github.com/articles/about-project-boards/) to keep track of our issues across our multiple services and initiatives (more on this [later](contributors/service_map.md)). Our main project board is the [Core Project](https://github.com/orgs/YACS-RCOS/projects/3).
+We use [Github Projects][github-projects] to keep track of our issues across our multiple services and initiatives (more on this [later](contributors/service_map.md)). Our main project board is the [Core Project][core-project].
 Issues on this project are organized into five categories:
 
 1) **Needs Review**. Newly created issues go here.
@@ -63,8 +63,8 @@ Once the fix for an issue has been released, a maintainer will move the issue to
 ## Finding an Issue
 
 Now that you see how things work, you are ready to find your first issue!
-The [Ready for Development](https://github.com/orgs/YACS-RCOS/projects/3#column-2034428) column on the [Core Project](https://github.com/orgs/YACS-RCOS/projects/3) is a great place to start.
-There are a number of issues here labeled [good-first-issue](https://github.com/orgs/YACS-RCOS/projects/3?card_filter_query=label%3A%22good+first+issue%22).
+The [Ready for Development][ready-for-development] column on the [Core Project][core-project] is a great place to start.
+There are a number of issues here labeled [good-first-issue][good-first-issue-label].
 Issues with this label have been selected by the maintainers as good starting points for new contributors.
 
 You are not, however, limited to issues with this label by any means!
@@ -90,3 +90,9 @@ So now you have something to work on.
 Congratulations on making it this far!
 The next step is to get Yacs running on your computer.
 Check out the [Setup Guide](contributors/setup_guide) for the next steps!
+
+[github-issues]: https://guides.github.com/features/issues/
+[github-projects]: https://help.github.com/articles/about-project-boards/
+[core-project]: https://github.com/orgs/YACS-RCOS/projects/3
+[ready-for-development]: https://github.com/orgs/YACS-RCOS/projects/3#column-2034428
+[good-first-issue-label]: https://github.com/orgs/YACS-RCOS/projects/3?card_filter_query=label%3A%22good+first+issue%22

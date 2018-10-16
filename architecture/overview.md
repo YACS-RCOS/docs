@@ -82,7 +82,7 @@ While automatically pulling and combining data from various sources is great, we
 This allows us to correct for out of date sources, add data that isn't present anywhere else, or even use Yacs as a primary catalog and information system.
 
 The way core handles overrides is by storing two sets of attributes for each record: `auto_attributes`, and `override_attributes`.
-These are both [`jsonb` columns](https://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/), and are therefore unstructured.
+These are both [`jsonb` columns][json-cols], and are therefore unstructured.
 `auto_attributes` stores the state of the record exactly as it came from malg.
 `override_attributes` stores, attributes that were set manually, and, you guessed it, overrides `auto_attributes`.
 
@@ -107,3 +107,5 @@ That's how data gets in and out of Yacs.
 This pipeline was developed through a good amount of trial and error.
 It is not 100% perfect, but it is simple to develop against, easy to contribute to, and it gets the job done.
 Pretty neat!
+
+[json-cols]: https://blog.codeship.com/unleash-the-power-of-storing-json-in-postgres/

@@ -109,7 +109,7 @@ name          | type             | example                                | desc
 id            | integer          | 42                                     | the id of the resource
 uuid          | string           | "b35e6500-2086-4893-affb-8c57ae2bb6b9" | the universally unique id
 shortname     | string           | 1200                                   | the course number or code
-tags          | array\<string\> | ["uhhhhh"]                             | the course's tags
+tags          | array\<string\>  | ["uhhhhh"]                             | the course's tags
 
 
 ### Terms
@@ -154,4 +154,3 @@ seats         | integer          | 40                                           
 seats_taken   | integer          | 20                                                    | the number of students currently registered for this section
 conflict_ids  | array\<integer\> | [4, 8, 15, 16, 23]                                    | the ids of all sections that overlap with this section
 periods       | array<hash>      | [{ "day": 1, "start": 800, "end": 950,  type: "LEC"}] | the section's periods. each period has a day of the week, start time, end time, and type
-
