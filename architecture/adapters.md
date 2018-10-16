@@ -1,5 +1,5 @@
-<!-- - ->
-
+<!--
+- ->
 # Service Map
 
 ## Welcome!
@@ -16,8 +16,9 @@ Here's a diagram illustrating the basic concept of Yacs and adapters:
 ========  
 DIAGRAM GOES HERE  
 ========  
-<!-- TODO: Make diagram - ->
-<!-- - ->
+<!-- TODO: Make diagram --><!--
+
+- ->
 When Yacs needs information that isn't stored in its database, it sends an HTTP request to the adapter that is responsible for that information. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples. The document `app.rb` will also be edited for clarity to this:
 
 ``` ruby
@@ -93,7 +94,7 @@ The JSON API is based off of JavaScript Object Notation:
 
 ```
 
-Notice that objects are surrounded by `{curly brackets}`, and both attributes and values are surrounded by `"double quotes"`. Each attribute-value pair is specified by a single line, with a colon separating attributes and values, and attribute-value pairs are separated by a comma. Note that spacing is irrelevant to the formatting of the document except in strings -- anything between double quotes must be on a single line.
+Objects are surrounded by `{curly brackets}`, and both attributes and values are surrounded by `"double quotes"`. Each attribute-value pair is specified by a single line, with a colon separating attributes and values, and attribute-value pairs are separated by a comma. Spacing is irrelevant to the formatting of the document except in strings -- anything between double quotes must be on a single line. Finally, there is no syntax for making comments.
 
 In the `yaml-rpi` adapter, this is done through these lines in `app.rb`:
 
@@ -107,10 +108,14 @@ require 'oj'
 
 ```
 
-`require 'sinatra/json'` and `require 'oj'` tell ruby to load the Sinatra JSON helper package and the Optimized JSON package respectively. Then when the adapter needs to convert the content to JSON, the `json` function from `'sinatra/json'` is called, converting `yaml_content` to the JSON format.
+`require 'sinatra/json'` and `require 'oj'` tell ruby to load the Sinatra package's JSON helper function and the Optimized JSON package respectively. Then when the adapter needs to convert the data in `yaml_content` to JSON, the `json` function from `'sinatra/json'` is called.
 
 
 ## HTTP Protocol
+
+<!-- IDK what to do here, I don't really understand this part fully yet
+
+- ->
 
 ```ruby
 
