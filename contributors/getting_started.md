@@ -58,7 +58,36 @@ Once the fix for an issue has been released, a maintainer will move the issue to
 
 ### Labels
 
-    TODO: Standardize and document issue labels
+Label Name			| Description
+:--------- 			| :----------  
+class:accessibility	| This issue is related to accessibility
+class:bug			| This issue describes a bug
+class:design 		| This issue is related to design
+class:documentation | This issue is related to documentation
+class:feature		| This issue describes a new feature
+class:performance	| This issue is related to performance
+class:testing		| This issue is related to testing
+good first issue	| Self-explanatory
+help wanted			| Pls help us with this :smile:
+priority:critical	| This issue is critical
+priority:high		| This issue has a high priority
+priority:low		| This issue has a low priority
+service:adapter		| This issue involves an adapter service
+service:admin		| This issue involves the admin service
+service:core		| This issue involves the core service
+service:malg		| This issue involves the malg service
+service:scheduler	| This issue involves the scheduler service
+service:users		| This issue involved the users service
+service:web			| This issue involves the web service
+size:epic			| This issue is epic :sunglasses:
+size:large			| This issue is large
+size:small			| This issue is small
+status:future		| This issue will be addressed later
+status:grooming		| This issue requires grooming & review
+status:inprogress	| This issue is actively being addressed
+status:nofix		| This issue will not be addressed
+university:nyu		| Specific to NYU
+university:rpi		| Specific to RPI
 
 ## Finding an Issue
 
@@ -96,3 +125,4 @@ Check out the [Setup Guide](contributors/setup_guide) for the next steps!
 [core-project]: https://github.com/orgs/YACS-RCOS/projects/3
 [ready-for-development]: https://github.com/orgs/YACS-RCOS/projects/3#column-2034428
 [good-first-issue-label]: https://github.com/orgs/YACS-RCOS/projects/3?card_filter_query=label%3A%22good+first+issue%22
+
