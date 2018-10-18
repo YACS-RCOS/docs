@@ -142,4 +142,5 @@ Notice that the only parts of the adapter that actually interact with YACS itsel
 [yacs-adapters]: https://github.com/YACS-RCOS/yacs/tree/master/adapters
 [yaml-rpi-adapter]: https://github.com/YACS-RCOS/yacs/tree/master/adapters/yaml-rpi
 [json-api]: http://jsonapi.org/format/
+
 <!-- -->
