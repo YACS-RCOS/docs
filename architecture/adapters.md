@@ -12,7 +12,7 @@ They can be written in any language, and must simply respond to a set of HTTP en
 ## Basic Concept
 Here's a diagram illustrating the basic concept of Yacs and adapters:
 
-<!-- ![alt-text](../_media/adaptersfig1.png) -->
+<!-- ![alt-text](../_media/adaptersfig1.png) - ->
 ========  
 DIAGRAM GOES HERE  
 ========  
