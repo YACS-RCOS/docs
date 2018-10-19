@@ -88,5 +88,5 @@ This library allows any service to authenticate a user and validate or invalidat
 [users-repo]: https://github.com/yacs-rcos/yacs/blob/master/users
 [notifications-repo]: https://github.com/yacs-rcos/yacs/blob/master/notifications
 [docs-repo]: https://github.com/yacs-rcos/docs
-[nginx-repo]: https://github.com/yacs-rcos/yacs-nginx
+[nginx-repo]: https://github.com/yacs-rcos/yacs/blob/master/nginx
 [auth-repo]: https://github.com/yacs-rcos/yacs-auth
