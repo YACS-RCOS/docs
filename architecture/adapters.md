@@ -21,8 +21,7 @@ DIAGRAM GOES HERE
 -->
 
 This isn't technically correct. Every adapter is polled on a fixed interval, and Yacs saves the combined result
-
-When Yacs needs information that isn't stored in its database, it sends an HTTP request to the adapter that is responsible for that information. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples. The document `app.rb` will also be edited for clarity to this:
+Yacs polls each adapter at a fixed interval by sending an HTTP request. Then that adapter works its magic, and sends the information back in JSON format. This document is going to focus on the [`yaml-rpi`][yaml-rpi-adapter] adapter and use its code in examples. The document `app.rb` will also be edited for clarity to this:
 
 ``` ruby
 require 'sinatra'
