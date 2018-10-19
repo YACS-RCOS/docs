@@ -18,7 +18,7 @@ This is now your entry point as a Yacs contributor. To get started developing, f
   `git clone git@github.com:YACS-RCOS/yacs.git`
 
 2. Enter the cloned directory
-  `cd yacs-orchestra`
+  `cd yacs`
 
 3. Run the one-time setup script
   `bin/yacs-prepare-development`
