@@ -28,8 +28,8 @@ We do not, however, support Docker for Windows due to issues we have encountered
 #### macOS
 
 Installing Docker on macOS is easy!
-Just visit the [installation page](https://store.docker.com/editions/community/docker-ce-desktop-mac) on the Docker website and download the installer.
-Once the install is complete, you will want to allot Docker a minimum of 4GB of RAM. To do so, [open the Docker preferences](https://docs.docker.com/docker-for-mac/#preferences-menu) and navigate to the [Advanced](https://docs.docker.com/docker-for-mac/advanced) section.
+Just visit the [installation page][install-page] on the Docker website and download the installer.
+Once the install is complete, you will want to allot Docker a minimum of 4GB of RAM. To do so, [open the Docker preferences][docker-prefs] and navigate to the [Advanced][advanced-section] section.
 The Docker for Mac installer includes Docker Compose, so you are all done!
 
 #### Notes for macOS users:
@@ -38,7 +38,7 @@ The Docker for Mac installer includes Docker Compose, so you are all done!
 #### Linux
 
 Installing Docker on Linux is pretty easy as well!
-The full documentation for installing Docker on Linux can be found [here](https://docs.docker.com/install/linux/docker-ce/ubuntu/), or on your distribution's website.
+The full documentation for installing Docker on Linux can be found [here][docker-linux], or on your distribution's website.
 
 We will provide the easy version, which works for recent versions of Ubuntu and other common distributions.
 Just open a terminal, enter the following command, and then follow the prompt to install Docker.
@@ -59,7 +59,7 @@ You're almost done! Now just install Docker Compose with the following command.
 As mentioned before, developing on Windows is not supported.
 You will have to install Linux to work on Yacs.
 If you are new to Linux, we recommend using Ubuntu.
-You can either [install Ubuntu on a Virtual Machine](https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098) or [install Ubuntu alongside Windows](https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654).
+You can either [install Ubuntu on a Virtual Machine][install-ubuntu-vm] or [install Ubuntu alongside Windows][install-ubuntu-win].
 
 Once you have installed Linux, follow the [Linux Docker install steps](#linux)
 
@@ -72,3 +72,10 @@ Once you have installed Linux, follow the [Linux Docker install steps](#linux)
 
 You have finished installing Docker.
 You are now ready to run Yacs!
+
+[install-page]: https://store.docker.com/editions/community/docker-ce-desktop-mac
+[docker-prefs]: https://docs.docker.com/docker-for-mac/#preferences-menu
+[advanced-section]: https://docs.docker.com/docker-for-mac/advanced
+[docker-linux]: https://docs.docker.com/install/linux/docker-ce/ubuntu/
+[install-ubuntu-vm]: https://www.lifewire.com/run-ubuntu-within-windows-virtualbox-2202098
+[install-ubuntu-win]: https://www.lifewire.com/ultimate-windows-8-1-ubuntu-dual-boot-guide-2200654

@@ -17,10 +17,10 @@ To install docker, see [Installing Docker](contributors/installing_docker).
 
 ### Setting up Git
 
-If you are using Git on your system for the first time, or you have not set up Github to use SSH, you'll have to take care of that before you can actually get Yacs running.
+If you're using Git on your system for the first time, or you have not set up Github to use SSH, you'll need to install either [Git][install-git] or [Github Desktop][install-github-desktop] in order to be able to efficiently contribute to the project (if you're new to Git, we recommend installing Github Desktop or following [this guide][github-instructions]).
 
-If you have not used git or Github before, make sure your local git name and email are set, and you have your SSH key uploaded to Github.
-Follow these [instructions](https://help.github.com/articles/set-up-git/) from Github. Please use SSH instead of HTTPS.
+If you haven't used Git or Github before, follow [these instructions][github-instructions] from Github.
+Make sure your local git name and email are set, and you have your SSH key uploaded to Github (Please use SSH instead of HTTPS).
 
     TODO: this section is not up to warmness and clarity standards
 
@@ -28,3 +28,7 @@ Follow these [instructions](https://help.github.com/articles/set-up-git/) from G
 
 Congrats! You are now ready to actually build and run Yacs.
 Continue on [Running Yacs](contributors/running_yacs).
+
+[install-git]: https://git-scm.com/downloads
+[install-github-desktop]: https://desktop.github.com/
+[github-instructions]: https://help.github.com/articles/set-up-git/
