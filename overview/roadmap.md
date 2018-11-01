@@ -9,8 +9,8 @@ Welcome! This document is a list of epics, features, and tasks that we plan on c
 **UI Update and Launch**
 
 - Integrate API v6
-  [x] Validate API Client
-  [x] Replace API calls and models with API Client methods and classes
+  - [x] Validate API Client
+  - [x] Replace API calls and models with API Client methods and classes
 - Course Appearance and Selection
   - [ ] Fix bugs in current test for sidebar and course listing
   - [ ] Implement colors (different for each selected course)
