@@ -1,15 +1,14 @@
 <style type="text/css">
     .cover-main h1.logo {
         font-size: 600% !important;
-        color: #C65353 !important;
+        color: #cd545b !important;
+        margin-bottom: 0 !important;
     }
 </style>
 
-<!-- ![logo](_media/icon.svg) -->
+<h1 class="logo"><img src="_media/logo.png" alt="Yacs"><small>beta</small></h1>
 
-<h1 class="logo">Yacs <small>beta</small></h1>
-
-> the free, open source course scheduler
+<h2>the free, open source course scheduler</h2>
 
 * created by rcos at rpi
 <br><br>
@@ -19,4 +18,4 @@
 
 <!-- background image -->
 
-![](_media/scrot_1.png)
+![decorative schedule background](_media/scrot_1.png)
