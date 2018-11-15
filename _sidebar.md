@@ -1,6 +1,5 @@
 * Overview
   * [❤️ Welcome to Yacs](README)
-  * [📖 About](overview/about)
   * [⚖️ Code Of Conduct](overview/code_of_conduct)
   * [🚧 Roadmap](overview/roadmap)
 * Contributing
