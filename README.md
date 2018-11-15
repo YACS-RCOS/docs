@@ -1,7 +1,29 @@
 # Welcome to Yacs!
 It's so good to see you!
 
-## About
+## What is Yacs?
+
+Yacs was created with the goal of making students' lives a little easier.
+It allows users to avoid the clunky UIs of proprietary Catalog Management and Student Information Systems, replacing these unpleseant experiences with easy browsing and searching of courses, and adds the additional functionality of easy schedule generation, and much more.
+
+But Yacs has grown to be much more than a simple schedule generator.
+Our mission at Yacs is the following:
+
+> 1. To alleviate the stress around academic and extracurrciluar planning for Students, Faculty and Staff by offering a Free, easy-to-use interface to supplement or replace traditional academic information and management systems.
+
+> 2. To enable innovative, disruptive applications in the academic space by breaking down propreitary information silos and providing consistent, digestible, Open Data.
+
+> 3. To empower students to take control of their academic experience and excel their careers through learning about and contributing to Open Source.
+
+Further, Yacs aims to provide the best experience possible to as many people as possible by serving as many universities as we can.
+Yacs is built from the ground up to be modular and flexible, and as such can use data from any source, and even combine data from many sources in an intelligent way.
+
+We have made it as easy as possible to connect Yacs to your university, and have designed this process to be accessible to developers of nearly any skill level.
+Please read through this documentation or contact us if you'd like to bring Yacs to your school, and help us make Yacs as great as it can be.
+
+Yacs owes its creation and continued maintenance to [RCOS](https://rcos.io), the Rensselaer Center for Open Source, and is developed in collaboration with [BUGS](https://bugs-nyu.github.io/), NYU's Open Source Club.
+
+## About this site
 This site is the home of (nearly) all Yacs documetation.
 Like all Yacs projects, this documentation is free and open source, and lives [in our Github](https://github.com/yacs-rcos/docs).
 
