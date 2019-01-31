@@ -4,14 +4,14 @@ It's so good to see you!
 ## What is Yacs?
 
 Yacs was created with the goal of making students' lives a little easier.
-It allows users to avoid the clunky UIs of proprietary Catalog Management and Student Information Systems, replacing these unpleseant experiences with easy browsing and searching of courses, and adds the additional functionality of easy schedule generation, and much more.
+It allows users to avoid the clunky UIs of proprietary Catalog Management and Student Information Systems, replacing these unpleasant experiences with easy browsing and searching of courses, and adds the additional functionality of easy schedule generation, and much more.
 
 But Yacs has grown to be much more than a simple schedule generator.
 Our mission at Yacs is the following:
 
-> 1. To alleviate the stress around academic and extracurrciluar planning for Students, Faculty and Staff by offering a Free, easy-to-use interface to supplement or replace traditional academic information and management systems.
+> 1. To alleviate the stress around academic and extracurricular planning for Students, Faculty and Staff by offering a free, easy-to-use interface to supplement or replace traditional academic information and management systems.
 
-> 2. To enable innovative, disruptive applications in the academic space by breaking down propreitary information silos and providing consistent, digestible, Open Data.
+> 2. To enable innovative, disruptive applications in the academic space by breaking down proprietary information silos and providing consistent, digestible, Open Data.
 
 > 3. To empower students to take control of their academic experience and excel their careers through learning about and contributing to Open Source.
 
@@ -24,7 +24,7 @@ Please read through this documentation or contact us if you'd like to bring Yacs
 Yacs owes its creation and continued maintenance to [RCOS](https://rcos.io), the Rensselaer Center for Open Source, and is developed in collaboration with [BUGS](https://bugs-nyu.github.io/), NYU's Open Source Club.
 
 ## About this site
-This site is the home of (nearly) all Yacs documetation.
+This site is the home of (nearly) all Yacs documentation.
 Like all Yacs projects, this documentation is free and open source, and lives [in our Github](https://github.com/yacs-rcos/docs).
 
 ## How to Read These Docs
