@@ -30,36 +30,29 @@ We use [Github Issues][github-issues] to keep track of what we need to do.
 Every issue describes a single task, problem, or request.
 Issues should be small, specific, and well defined.
 
-### Projects
-
-We use [Github Projects][github-projs] to keep track of our issues across our multiple services and initiatives (more on this [later](contributors/service_map.md)). Our main project board is the [Core Project][core-proj].
-Issues on this project are organized into five categories:
-
-1) **Needs Review**. Newly created issues go here.
-These issues are pending review from a core team member, and may or may not have the necessary information to be resolved.
-If you are new to the project, you can probably ignore these.
-You can always add a comment on the issue's thread or ask a maintainer if one sounds particularly interesting to you, however.
-
-2) **Ready for Development**. Issues that are ready to be worked on go here.
-Issues are placed here by a core team member once they have been vetted for acceptance criteria, relevance, and clarity.
-This is the best place to look for something to work on.
-
-3) **In Progress**. Issues that are currently being worked on go here.
-If you begin work on an issue, please move it to this column, and add yourself as an asignee.
-See an issue here you also want to work on? Feel free to tag the assignee in a comment and ask if they need any help.
-
-4) **Done**. Issues that have been closed go here.
-Issues are typically closed after a Pull Request resolving said issue has been merged. Issues are moved here automatically once they have been closed.
-
-5) **Shipped**. Issues that have been shipped (released) go here.
-This column is the final stage in the life of an issue (unless it is re-opened in the future).
-We try to release as often as we can, but sometimes a change won't be deployed right away for various reasons.
-Once the fix for an issue has been released, a maintainer will move the issue to this column.
-
 ### Labels
 
+Labels are divided into several types, each of which describes a different aspect of an issue.
+Labels names mostly follow the form `type:designation`.
+The label types and values are listed here.
+
+#### General Labels
+
+General labels may not follow the naming convention.
+Right now there is only one, because it is a Github standard for issue discovery.
+It is listed at the top because it is important.
+
 Label Name			| Description
-:--------- 			| :----------  
+:--------- 			| :----------
+**help wanted**     | **Pls help us with this :smile:**
+
+#### Class
+
+Class labels describe what general category an issue falls under.
+As issue should have one of these labels.
+
+Label Name			| Description
+:--------- 			| :----------
 class:accessibility	| This issue is related to accessibility
 class:bug			| This issue describes a bug
 class:design 		| This issue is related to design
@@ -67,11 +60,25 @@ class:documentation | This issue is related to documentation
 class:feature		| This issue describes a new feature
 class:performance	| This issue is related to performance
 class:testing		| This issue is related to testing
-good first issue	| Self-explanatory
-help wanted			| Pls help us with this :smile:
+
+#### Priority
+
+Priority labels describe how important an issue is to Yacs' stakeholders.
+An issue should have one of these labels.
+
+Label Name			| Description
+:--------- 			| :----------
 priority:critical	| This issue is critical
 priority:high		| This issue has a high priority
 priority:low		| This issue has a low priority
+
+#### Service
+
+Service labels describe what service(s) an issue affects.
+An issue should have one or more of these labels.
+
+Label Name			| Description
+:--------- 			| :----------
 service:adapter		| This issue involves an adapter service
 service:admin		| This issue involves the admin service
 service:core		| This issue involves the core service
@@ -79,24 +86,51 @@ service:malg		| This issue involves the malg service
 service:scheduler	| This issue involves the scheduler service
 service:users		| This issue involved the users service
 service:web			| This issue involves the web service
+
+#### Size
+
+Size labels describe the relative scope of an issue.
+An issue should have one of these labels.
+
+Label Name			| Description
+:--------- 			| :----------
 size:epic			| This issue is epic :sunglasses:
 size:large			| This issue is large
 size:small			| This issue is small
+
+#### Status
+
+Status labels describe the current development status of an issue.
+An issue should have one of these.
+
+Label Name			| Description
+:--------- 			| :----------
 status:future		| This issue will be addressed later
 status:grooming		| This issue requires grooming & review
 status:inprogress	| This issue is actively being addressed
 status:nofix		| This issue will not be addressed
-university:nyu		| Specific to NYU
-university:rpi		| Specific to RPI
+status:future		| This issue is ready to be worked on
+
+#### University
+
+University labels describe what univerisity or universities an issue pertains to.
+An issue may have none, one, or more of these.
+Issues that pertain to all univerisities or none in particular should not have one of these.
+
+Label Name			| Description
+:--------- 			| :----------
+university:nyu		| This issue is Specific to NYU
+university:rpi		| This issue is Specific to RPI
 
 ## Finding an Issue
 
 Now that you see how things work, you are ready to find your first issue!
-The [Ready for Development][ready-for-dev] column on the [Core Project][core-proj] is a great place to start.
-There are a number of issues here labeled [good-first-issue][good-first-issue-label].
+There are a number of issues here labeled [help wanted][help-wanted-label].
+This is a great place to start.
 Issues with this label have been selected by the maintainers as good starting points for new contributors.
 
 You are not, however, limited to issues with this label by any means!
+Any issue labeled [status:readyfordev][readyfordev-label] is also a good bet!
 If you are feeling more adventurous, you are free to explore any of the issues on the board, or propose a change or fix by [creating an issue](#creating-an-issue) of your own.
 
 ### Help! I Can't Find an Issue!
@@ -111,7 +145,8 @@ You can also always skip ahead to the [Setup Guide](contributors/setup_guide) to
 
 ## Creating an Issue
 
-    TODO: Write this section
+Creating issues is easy and encouraged!
+Simply visit the [New Issue][github-create-issue] page on Github, select the relevant template, and fill it out!
 
 ## Getting to Work
 
@@ -121,7 +156,6 @@ The next step is to get Yacs running on your computer.
 Check out the [Setup Guide](contributors/setup_guide) for the next steps!
 
 [github-issues]: https://guides.github.com/features/issues/
-[github-projs]: https://help.github.com/articles/about-project-boards/
-[ready-for-dev]: https://github.com/orgs/YACS-RCOS/projects/3#column-2034428
-[core-proj]: https://github.com/orgs/YACS-RCOS/projects/3
-[good-first-issue-label]: https://github.com/orgs/YACS-RCOS/projects/3?card_filter_query=label%3A%22good+first+issue%22
+[github-create-issue]: https://github.com/YACS-RCOS/yacs/issues/new/choose
+[readyfordev-label]: https://github.com/YACS-RCOS/yacs/issues?q=is%3Aopen+is%3Aissue+label%3Astatus%3Areadyfordev
+[help-wanted-label]: https://github.com/YACS-RCOS/yacs/issues?q=is%3Aopen+is%3Aissue+label%3A%22help+wanted%22
