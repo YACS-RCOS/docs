@@ -2,7 +2,7 @@
 
 ## Welcome
 
-Welcome to the Yacs API documentation!
+Welcome to the Yacs API documentation! Please note that currently this api only works on the beta for Yacs. Here is the link to the beta website for RPI if you would like to try it out [https://rpi.yacs.io/](https://rpi.yacs.io/) 
 
 The Yacs API fully implements [JSON-API v1](http://jsonapi.org/), a specification for creating RESTful APIs in JSON.
 It's basically GraphQL on JSON.
