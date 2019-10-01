@@ -2,6 +2,6 @@
 * [Contribute](/contributors/getting_started)
 * [API](api/usage)
 * [Github](https://github.com/yacs-rcos)
-* [Project](https://github.com/orgs/YACS-RCOS/)
+* [Project](https://github.com/YACS-RCOS/yacs)
 * [Blog](https://yacs-rcos.github.io/blog)
 * [Contact](mailto:yacsrpi@gmail.com)
