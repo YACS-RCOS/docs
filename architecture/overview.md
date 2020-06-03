@@ -38,7 +38,7 @@ For an in-depth explanation of how adapters work, how to build them, and a descr
 ## Amalgamator
 > _amalgamate: to combine into a unified or integrated whole; unite._
 
-Because a Yacs pipeline typically has several sources and thus several adapters, and becuase the adapters don't keep track of changes over time, we need a service to continually check the adapters for changes combine the data from each.
+Because a Yacs pipeline typically has several sources and thus several adapters, and becuase the adapters don't keep track of changes over time, we need a service to continually check the adapters for changes and combine the data from each.
 We call this service **malg**, short for amalgamator.
 
 When a university's pipeline is set up, malg is configured to be aware of that university's adapters, and to poll them for data at specified intervals.
